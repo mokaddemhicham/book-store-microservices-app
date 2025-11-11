@@ -12,7 +12,7 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     env:
-      working-directory:
+      working-directory: ./catalog-service
     defaults:
       run:
         working-directory: ${{ env.working-directory }}
